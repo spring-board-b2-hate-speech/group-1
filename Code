@@ -1,0 +1,11 @@
+import pandas as pd
+df=pd.read_csv("C:/Users/chish/Desktop/Infosys/labeled_data.csv")
+print(df.head())  
+print(df.info())  
+print(df.describe())  
+df = df.dropna()
+print(df.isnull().sum())
+df = df.drop_duplicates()
+df['tweet'] = df['tweet'].str.lower()  
+df['tweet'] = df['tweet'].str.strip()  
+
