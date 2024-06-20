@@ -12,6 +12,7 @@ The dataset used for this project can be found at the following URL:
 ## Instructions
 
 ### 1. Data Cleaning
+
 The `data_cleaning.py` script is responsible for:
 - Loading the raw dataset.
 - Expanding abbreviations using the `abbreviations.py` module.
@@ -19,9 +20,14 @@ The `data_cleaning.py` script is responsible for:
 - Saving the cleaned data to `cleaned_data.csv`.
 
 ### 2. Tokenization and Encoding
-The `tokenization_encoding.py` script handles:
+
+The `encoding.py` script handles:
 - Loading the cleaned dataset (`cleaned_data.csv`).
 - Tokenizing the text data.
 - Applying TF-IDF encoding to the tokenized data.
 - Saving the TF-IDF encoded data to `tfidf_encoded_data.pkl`.
+- Evaluating the accuracy using a Random Forest classifier.
 
+## Results
+
+- **Model Accuracy**: The Random Forest classifier achieved an accuracy of 89.69%.
