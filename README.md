@@ -26,7 +26,7 @@ The `embedding.py` script handles:
 - Saving the TF-IDF encoded data to `tfidf_encoded_data.pkl`.
 
 ### 3. Model Evaluation
-The `encoding.ipynb` script further evaluates the TF-IDF encoded data using:
+The `embedding.ipynb` script further evaluates the TF-IDF encoded data using:
 - Splitting the data into training and testing sets.
 - Training a Random Forest classifier.
 - Evaluating the model using accuracy, precision, recall, and F1-score.
