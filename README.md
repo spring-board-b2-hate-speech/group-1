@@ -19,7 +19,7 @@ The `data_cleaning.py` script is responsible for:
 - Saving the cleaned data to `cleaned_data.csv`.
 
 ### 2. Tokenization and Encoding
-The `encoding.py` script handles:
+The `embedding.py` script handles:
 - Loading the cleaned dataset (`cleaned_data.csv`).
 - Tokenizing the text data.
 - Applying TF-IDF encoding to the tokenized data.
