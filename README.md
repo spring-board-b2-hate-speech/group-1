@@ -31,3 +31,11 @@ The `ml_models.ipynb` script:
 - Applies SMOTE for class imbalance.
 - Trains and evaluates Logistic Regression, SVM, and Random Forest models.
 - Saves the best performing model to `best_ml_model.pkl`.
+
+### 4. Modeling with Deep Learning
+The `deep_learning_models.ipynb` script:
+- Loads the cleaned dataset.
+- Tokenizes and pads the text data.
+- Applies SMOTE for class imbalance.
+- Trains and evaluates LSTM, CNN, and Bidirectional LSTM models.
+- Prints accuracy and classification reports for each model.
