@@ -19,14 +19,15 @@ The `data_cleaning.py` script is responsible for:
 - Saving the cleaned data to `cleaned_data.csv`.
 
 ### 2. Tokenization and Encoding
-The `embedding.py` script handles:
+The `encoding.ipynb` script handles:
 - Loading the cleaned dataset (`cleaned_data.csv`).
 - Tokenizing the text data.
 - Applying TF-IDF encoding to the tokenized data.
 - Saving the TF-IDF encoded data to `tfidf_encoded_data.pkl`.
 
-### 3. Model Evaluation
-The `embedding.ipynb` script further evaluates the TF-IDF encoded data using:
-- Splitting the data into training and testing sets.
-- Training a Random Forest classifier.
-- Evaluating the model using accuracy, precision, recall, and F1-score.
+### 3. Modeling with Machine Learning
+The `ml_models.py` script:
+- Loads the TF-IDF encoded data.
+- Applies SMOTE for class imbalance.
+- Trains and evaluates Logistic Regression, SVM, and Random Forest models.
+- Saves the best performing model to `best_ml_model.pkl`.
