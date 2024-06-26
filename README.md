@@ -26,7 +26,7 @@ The `encoding.ipynb` script handles:
 - Saving the TF-IDF encoded data to `tfidf_encoded_data.pkl`.
 
 ### 3. Modeling with Machine Learning
-The `ml_models.py` script:
+The `ml_models.ipynb` script:
 - Loads the TF-IDF encoded data.
 - Applies SMOTE for class imbalance.
 - Trains and evaluates Logistic Regression, SVM, and Random Forest models.
