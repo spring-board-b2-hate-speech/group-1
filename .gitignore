@@ -1,4 +1,5 @@
 *.csv
+*.pkl
 # Ignore Python compiled files
 *.pyc
 *.pyo
@@ -13,6 +14,7 @@ venv/
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+
 # Ignore VS Code settings
 .vscode/
 
@@ -20,3 +22,4 @@ venv/
 cleaned_data.csv
 Data-Preprocessing/tfidf_encoded_data.pkl
 group-1-main.code-workspace
+
