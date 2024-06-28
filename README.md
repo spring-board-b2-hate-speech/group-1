@@ -19,23 +19,17 @@ The `data_cleaning.py` script is responsible for:
 - Saving the cleaned data to `cleaned_data.csv`.
 
 ### 2. Tokenization and Encoding
-The `encoding.ipynb` script handles:
+The `encoding.py` script handles:
 - Loading the cleaned dataset (`cleaned_data.csv`).
 - Tokenizing the text data.
 - Applying TF-IDF encoding to the tokenized data.
 - Saving the TF-IDF encoded data to `tfidf_encoded_data.pkl`.
 
-### 3. Modeling with Machine Learning
-The `ml_models.ipynb` script:
-- Loads the TF-IDF encoded data.
-- Applies SMOTE for class imbalance.
-- Trains and evaluates Logistic Regression, SVM, and Random Forest models.
-- Saves the best performing model to `best_ml_model.pkl`.
-
-### 4. Modeling with Deep Learning
-The `deep_learning_models.ipynb` script:
-- Loads the cleaned dataset.
-- Tokenizes and pads the text data.
-- Applies SMOTE for class imbalance.
-- Trains and evaluates LSTM, CNN, and Bidirectional LSTM models.
-- Prints accuracy and classification reports for each model.
+### 3. Machine Learning Models
+The `ml_models.ipynb` notebook is responsible for:
+- Loading the cleaned data and applying TF-IDF encoding.
+- Splitting the data into training and testing sets.
+- Applies SMOTE to handle data imbalance.
+- Hyperparameter tuning for Logistic Regression, SVM, and Random Forest using GridSearchCV.
+- Evaluating the models based on accuracy and confusion matrices.
+- Saving the best model with the highest accuracy.
