@@ -1,0 +1,22 @@
+*.csv
+# Ignore Python compiled files
+*.pyc
+*.pyo
+*.pkl
+# Ignore Python cache directories
+__pycache__/
+ 
+# Ignore virtual environments
+venv/
+.env/
+ 
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+ 
+# Ignore VS Code settings
+.vscode/
+# Ignore files related to random_forest
+Data_Preprocessing/random_forest_model.pkl
+Data_Preprocessing/random_forest_model_compressed.pkl
+
+# Ignore output files
