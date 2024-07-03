@@ -16,3 +16,6 @@ venv/
 .vscode/
  
 # Ignore output files
+# Ignore files related to random_forest
+Data_Preprocessing/random_forest_model.pkl
+Data_Preprocessing/random_forest_model_compressed.pkl
