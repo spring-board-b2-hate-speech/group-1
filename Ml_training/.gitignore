@@ -3,6 +3,7 @@
 *.pyc
 *.pyo
 *.pkl
+*.png
 # Ignore Python cache directories
 __pycache__/
  
