@@ -20,9 +20,14 @@ venv/
 # Ignore VS Code settings
 .vscode/
 
+# Ignore temp folder
+temp/
+
+
 # Ignore output files
 cleaned_data.csv
 Data-Preprocessing/tfidf_encoded_data.pkl
 group-1-main.code-workspace
+
 
 abbreviations.py
