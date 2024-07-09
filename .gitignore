@@ -3,6 +3,7 @@
 # Ignore Python compiled files
 *.pyc
 *.pyo
+*.py
 
 # Ignore Python cache directories
 __pycache__/
