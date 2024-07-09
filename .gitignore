@@ -4,6 +4,7 @@
 *.pyc
 *.pyo
 *.py
+*.joblib
 
 # Ignore Python cache directories
 __pycache__/
