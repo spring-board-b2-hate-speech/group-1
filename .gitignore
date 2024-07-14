@@ -7,6 +7,7 @@
 *.joblib
 *.h5
 *.txt
+*.keras
 
 # Ignore Python cache directories
 __pycache__/
