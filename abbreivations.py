@@ -15,7 +15,7 @@ replacement_dict = {
     "lol": "laughing out loud",
     "idk": "i do not know",
     "tbh": "to be honest",
-    "imo": "in my opinion",
+    "imo": "in my opinion", 
     "btw": "by the way",
     "omg": "oh my god",
     "brb": "be right back",
