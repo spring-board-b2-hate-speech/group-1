@@ -9,27 +9,7 @@ Our objective as a hate speech detection system for movie reviews is to filter u
 The dataset used for this project can be found at the following URL:
 [Hate Speech and Offensive Language Dataset](https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.csv)
 
-## Instructions
 
-### 1. Data Cleaning
-The `data_cleaning.py` script is responsible for:
-- Loading the raw dataset.
-- Expanding abbreviations using the `abbreviations.py` module.
-- Cleaning the text data by removing unwanted characters, punctuation, and stopwords.
-- Saving the cleaned data to `cleaned_data.csv`.
+Dataset after Data-Preprocessing : [cleaned_data.csv](https://drive.google.com/file/d/1YlA1XjLIHsaXA3AFmHjAeao3oHJUtYF4/view?usp=drive_link)
 
-### 2. Tokenization and Encoding
-The `encoding.py` script handles:
-- Loading the cleaned dataset (`cleaned_data.csv`).
-- Tokenizing the text data.
-- Applying TF-IDF encoding to the tokenized data.
-- Saving the TF-IDF encoded data to `tfidf_encoded_data.pkl`.
 
-### 3. Machine Learning Models
-The `ml_models.ipynb` notebook is responsible for:
-- Loading the cleaned data and applying TF-IDF encoding.
-- Splitting the data into training and testing sets.
-- Applies SMOTE to handle data imbalance.
-- Hyperparameter tuning for Logistic Regression, SVM, and Random Forest using GridSearchCV.
-- Evaluating the models based on accuracy and confusion matrices.
-- Saving the best model with the highest accuracy.
