@@ -1,4 +1,6 @@
 *.csv
+.docx
+.h5
 # Ignore Python compiled files
 *.pyc
 *.pyo
