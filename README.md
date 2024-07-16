@@ -21,5 +21,6 @@ To ensure our dataset is well-prepared for training and to enhance the quality a
 - **Stopword Removal and Lemmatization:** Removed stopwords and lemmatized remaining words.
 
 We used Visual studio for data cleaning and preprocessing. The preprocessing steps include tokenization, lemmatization, and normalization to prepare the dataset for training the model. These steps ensure that our dataset is clean, standardized, and optimized for hate speech detection tasks.
+
 **License:-**
 This project is licensed under the Creative Commons Attribution 4.0 International License.
