@@ -1,9 +1,10 @@
 *.csv
-.docx
-.h5
-.pkl
-.py
-
+*.docx
+*.h5
+*.pkl
+*.py
+*.keras
+*.joblib
 # Ignore Python compiled files
 *.pyc
 *.pyo
